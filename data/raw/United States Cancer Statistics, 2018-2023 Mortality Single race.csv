@@ -1,0 +1,47 @@
+"Notes","Year","Year Code",Deaths,Population,Age-Adjusted Rate,Crude Rate
+,"2018","2018",1841,81956393,2.2,2.2
+,"2019","2019",1704,81679568,2.1,2.1
+,"2020","2020",1702,82873432,2.0,2.1
+,"2021","2021",1722,82201873,2.1,2.1
+,"2022","2022",1772,81903660,2.1,2.2
+,"2023","2023",1829,81573961,2.2,2.2
+"---"
+"Dataset: United States Cancer Statistics, 2018-2023 Mortality Single race"
+"Query Parameters:"
+"Age Group: < 1 year; 1-4 years; 5-9 years; 10-14 years; 15-19 years"
+"Cancer Sites: All Cancer Sites Combined"
+"Group By: Year"
+"Show Totals: False"
+"Show Zero Values: False"
+"Show Suppressed: False"
+"Calculate Rates Per: 100,000"
+"Standard Population: 2000 U.S. Std. Million"
+"---"
+"Help: See http://wonder.cdc.gov/wonder/help/cancermort-v2023.html for more information."
+"---"
+"Query Date: Feb 23, 2026 2:39:05 AM"
+"---"
+"Suggested Citation: United States Cancer Statistics - Mortality: 1999 - 2023, WONDER Online Database. United States Department"
+"of Health and Human Services, Centers for Disease Control and Prevention; 2025. Accessed at"
+"http://wonder.cdc.gov/cancermort-v2022_SR.html on Feb 23, 2026 2:39:05 AM"
+"---"
+Caveats:
+"1. About rate comparisons: <ul><li> For consistency with the data on cancer incidence, the cancer sites in mortality data were"
+"grouped according to the revised SEER recodes dated March 1, 2018 (see SEER Cause of Death Recodes:"
+"http://seer.cancer.gov/codrecode/.). Because NCHS uses different groupings for some sites, the death rates in this report may"
+"differ slightly from those published by NCHS. In addition, under the ICD, there can be differences in mortality and incidence"
+"coding. For example, there are several codes for mesothelioma in ICD-10 (depending on the primary site). However in ICD-O-3, one"
+"code captures all of the primary sites that mesothelioma affects. Note that this dataset is based on underlying cause of death."
+"Kaposi Sarcoma deaths included in this dataset are only those deaths with underlying cause of death attributed to Kaposi"
+"Sarcoma, and do not include deaths where the condition was a contributing cause of death, or subsequent to another underlying"
+"condition. </li><li> The population used to age-adjust the rates in this report is the 2000 U.S. standard population, which is"
+"in accordance with a 1998 recommendation of the US. Department of Health and Human Services. The 2000 U.S. standard population"
+"is based on the proportion of the 2000 population in specific age groups (younger than 1 year, 1-4 years, 5-9 years, 10-14"
+"years, 15-19 years, . . . 85 years or older); the proportions of the 2000 population in these age groups serve as weights for"
+"calculating age-adjusted incidence and death rates. NCHS, however, uses a different set of age groups in its age adjustment of"
+"death rates, and thus the cancer death rates in this report may differ slightly from those published by NCHS. </li><li> Deaths"
+"of persons of unknown age are not included in this data set. Death rates may differ slightly from other reports where deaths of"
+"persons of unknown age are included. </li></ul>"
+"2. Because the vast majority of Kaposi sarcoma (KS) cases have developed in association with human immunodeficiency virus (HIV)"
+"infection and acquired immunodeficiency syndrome (AIDS), HIV/AIDS is listed as the underlying cause of death. Therefore, KS"
+"death counts have been moved to the Miscellaneous category."
