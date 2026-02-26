@@ -53,6 +53,11 @@ def clean_cancer_data():
     # Reset index
     df_clean = df_clean.reset_index(drop=True)
     
+    # Remove empty Notes column
+    if 'Notes' in df_clean.columns:
+        df_clean = df_clean.drop('Notes', axis=1)
+        print("Removed empty Notes column")
+    
     # Save cleaned data
     output_file = PROCESSED_DIR / "cleaned_cancer_data.csv"
     df_clean.to_csv(output_file, index=False)
