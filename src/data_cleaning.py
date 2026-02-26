@@ -58,6 +58,11 @@ def clean_cancer_data():
         df_clean = df_clean.drop('Notes', axis=1)
         print("Removed empty Notes column")
     
+    # Remove redundant Year Code column (same as Year)
+    if 'Year Code' in df_clean.columns:
+        df_clean = df_clean.drop('Year Code', axis=1)
+        print("Removed redundant Year Code column")
+    
     # Save cleaned data
     output_file = PROCESSED_DIR / "cleaned_cancer_data.csv"
     df_clean.to_csv(output_file, index=False)
